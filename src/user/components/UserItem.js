@@ -7,7 +7,7 @@ const UserItem = (props) => {
     <li className='user-item'>
       <div className='user-item__content'>
         <div className='uset-item__image'>
-          <Avatar src={props.image} alt={props.name} />
+          <Avatar image={props.image} alt={props.name} />
         </div>
         <div className='uset-item__info'>
           <h2>{props.name}</h2>
